@@ -1,0 +1,4 @@
+/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/CMakeFiles/qjs.dir
+/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/CMakeFiles/quickjs.dir

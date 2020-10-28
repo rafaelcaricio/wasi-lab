@@ -1,0 +1,6 @@
+/home/rafaelcaricio/clion-2019.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi
+-- Building in Debug mode
+-- Building with GNU 7.4.0 on Linux-5.0.0-37-generic
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug

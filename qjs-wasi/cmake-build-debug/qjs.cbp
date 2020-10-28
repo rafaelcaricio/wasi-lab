@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="qjs"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qjs">
+				<Option output="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/qjs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DCONFIG_VERSION=&quot;2019-07-09&quot;"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 qjs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qjs/fast">
+				<Option output="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/qjs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DCONFIG_VERSION=&quot;2019-07-09&quot;"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 qjs/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quickjs">
+				<Option output="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/libquickjs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DCONFIG_VERSION=&quot;2019-07-09&quot;"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 quickjs"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quickjs/fast">
+				<Option output="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/libquickjs.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-DCONFIG_VERSION=&quot;2019-07-09&quot;"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 quickjs/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/cutils.c">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/cutils.h">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/libregexp.c">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/libregexp.h">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/libunicode.c">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/libunicode.h">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/qjs.c">
+			<Option target="qjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/quickjs-libc.c">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/quickjs-libc.h">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/quickjs.c">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/quickjs.h">
+			<Option target="qjs"/>
+			<Option target="quickjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/src/repl.c">
+			<Option target="qjs"/>
+		</Unit>
+		<Unit filename="/home/rafaelcaricio/development/fightcode-wasm/wasi-lab/qjs-wasi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

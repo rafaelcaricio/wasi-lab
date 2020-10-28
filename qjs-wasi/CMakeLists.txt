@@ -29,3 +29,11 @@ add_executable(qjs
     src/repl.c
 )
 
+add_library(quickjs STATIC
+        src/cutils.c
+        src/libregexp.c
+        src/libunicode.c
+        src/quickjs.c
+        src/quickjs-libc.c
+        )
+
